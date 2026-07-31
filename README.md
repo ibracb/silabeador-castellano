@@ -85,4 +85,4 @@ La palabra entonada es:  ['can', 'ciOn']
 ## Notas
 
 - En la opción 4 (justificar), si el fichero indicado no existe se muestra un mensaje y se pide de nuevo la ruta; si se introduce una línea vacía, se cancela y se vuelve al menú.
-- Los datos acumulados durante la sesión se guardan en `BBDD.csv` al salir del programa.
+- Los datos acumulados durante la sesión se guardan en `BBDD.csv` al salir del programa. Si dicho fichero no existe, se crea al inicio de la sesión.
