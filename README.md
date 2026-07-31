@@ -23,11 +23,18 @@ Herramienta CLI que trabaja con palabras del castellano: silabea palabras, marca
 pip install regex
 ```
 
-## Instalación y ejecución
+## Instalación y ejecución <a id="instalacion"></a>
 
 ```bash
-cd code
-python Main.py
+# Clonar el repositorio
+git clone https://github.com/ibracb/silabeador-castellano.git
+cd silabeador-castellano
+
+# Instalar dependencias
+pip install regex
+
+# Ejecutar desde la carpeta del proyecto
+python code/Main.py
 ```
 
 Al iniciarse se muestra un menú con las siguientes opciones:
@@ -85,4 +92,4 @@ La palabra entonada es:  ['can', 'ciOn']
 ## Notas
 
 - En la opción 4 (justificar), si el fichero indicado no existe se muestra un mensaje y se pide de nuevo la ruta; si se introduce una línea vacía, se cancela y se vuelve al menú.
-- Los datos acumulados durante la sesión se guardan en `BBDD.csv` al salir del programa.
+- Los datos acumulados durante la sesión se guardan en `BBDD.csv` al salir del programa. Al ejecutar desde la raíz del proyecto (tal como se indica en [Instalación y ejecución](#instalacion)), el archivo se crea en esa raíz.
