@@ -14,6 +14,26 @@ Herramienta CLI que trabaja con palabras del castellano: silabea palabras, marca
 **Universidad:** Universidad de Murcia  
 **Curso:** 2023/2024
 
+## Estructura del proyecto
+
+```
+silabeador-castellano/
+├── code/                      # Código fuente
+│   ├── Main.py                # Menú principal y coordinación de funcionalidades
+│   ├── Silabear.py            # silabar(): divide una palabra en sílabas
+│   ├── Normas.py              # Expresiones regulares y reglas de separación silábica
+│   ├── EntonarConTilde.py     # entonacion_tilde(): marca la vocal tónica con tilde
+│   ├── EntonarSinTilde.py     # entonacion_sin_tilde(): marca la vocal tónica sin tilde
+│   ├── Rimar.py               # rimas(): calcula las rimas asonante y consonante
+│   ├── CompruebaTilde.py      # hayTilde(): comprueba si una palabra lleva tilde
+│   ├── Justificacion.py       # justifica(): justifica el texto de un fichero
+│   └── SeparacionPalabras.py  # separarPalabras(): divide un párrafo en palabras
+├── ejemplos/
+│   └── prueba.txt             # Extracto del Quijote (ejemplo de entrada)
+├── requirements.txt           # Dependencias del proyecto
+└── README.md
+```
+
 ## Requisitos
 
 - Python 3
@@ -53,25 +73,6 @@ Pulsa 5 para salir.
 | 4 | **Justificar** | Justifica el texto de un fichero según una anchura máxima y un mínimo de espacios. |
 | 5 | **Salir** | Guarda los datos acumulados en `BBDD.csv` y cierra el programa. |
 
-## Estructura del proyecto
-
-```
-silabeador-castellano/
-├── code/                      # Código fuente
-│   ├── Main.py                # Menú principal y coordinación de funcionalidades
-│   ├── Silabear.py            # silabar(): divide una palabra en sílabas
-│   ├── Normas.py              # Expresiones regulares y reglas de separación silábica
-│   ├── EntonarConTilde.py     # entonacion_tilde(): marca la vocal tónica con tilde
-│   ├── EntonarSinTilde.py     # entonacion_sin_tilde(): marca la vocal tónica sin tilde
-│   ├── Rimar.py               # rimas(): calcula las rimas asonante y consonante
-│   ├── CompruebaTilde.py      # hayTilde(): comprueba si una palabra lleva tilde
-│   ├── Justificacion.py       # justifica(): justifica el texto de un fichero
-│   └── SeparacionPalabras.py  # separarPalabras(): divide un párrafo en palabras
-├── ejemplos/
-│   └── prueba.txt             # Extracto del Quijote (ejemplo de entrada)
-├── requirements.txt           # Dependencias del proyecto
-└── README.md
-```
 
 ## Ejemplo de uso
 
