@@ -10,7 +10,7 @@ Herramienta CLI que trabaja con palabras del castellano: silabea palabras, marca
 - **Sofía Pérez Augusto** - [Arimoluk](https://github.com/Arimoluk)
 
 **Asignatura:** Autómatas y Lenguajes Formales  
-**Grado:** Ingeniería Informática  
+**Titulación:** Grado en Ingeniería Informática  
 **Universidad:** Universidad de Murcia  
 **Curso:** 2023/2024
 
