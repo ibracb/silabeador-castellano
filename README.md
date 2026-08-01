@@ -1,6 +1,7 @@
 # Silabeador+
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)
+![Universidad de Murcia](https://img.shields.io/badge/Universidad%20de%20Murcia-E03B23?style=flat&logo=graduation-cap&logoColor=white)
 
 Herramienta CLI que trabaja con palabras del castellano: silabea palabras, marca la sílaba tónica (entonación), busca rimas y justifica textos.
 
