@@ -92,6 +92,15 @@ Palabra: canción
 La palabra entonada es:  ['can', 'ciOn']
 ```
 
+Al elegir la opción 3 (rimas):
+
+```
+Número introducido: 3
+Palabra: canción
+Las rimas asonantes y consonantes de la palabra son:  O :  ['canción'] 
+ On :  ['canción']
+```
+
 Al elegir la opción 4 (justificar) con el fichero de ejemplo `ejemplos/prueba.txt`:
 
 ```
@@ -102,6 +111,13 @@ Introduzca el fichero que desea justificar: ejemplos/prueba.txt
 30  En  un  lugar  de  la
 29  Mancha,  de  cuyo
 ...
+```
+
+Al elegir la opción 5 (salir):
+
+```
+Número introducido: 5
+¡Adiós!
 ```
 
 ## Notas
