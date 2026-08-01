@@ -17,11 +17,7 @@ Herramienta CLI que trabaja con palabras del castellano: silabea palabras, marca
 ## Requisitos
 
 - Python 3
-- Paquete [`regex`](https://pypi.org/project/regex/), usado en el silabeo y la separación de palabras:
-
-```bash
-pip install regex
-```
+- Dependencias listadas en [`requirements.txt`](requirements.txt)
 
 ## Instalación y ejecución <a id="instalacion"></a>
 
@@ -31,7 +27,7 @@ git clone https://github.com/ibracb/silabeador-castellano.git
 cd silabeador-castellano
 
 # Instalar dependencias
-pip install regex
+pip install -r requirements.txt
 
 # Ejecutar desde la carpeta del proyecto
 python code/Main.py
@@ -89,7 +85,19 @@ Palabra: canción
 La palabra entonada es:  ['can', 'ciOn']
 ```
 
+Al elegir la opción 4 (justificar) con el fichero de ejemplo `ejemplos/prueba.txt`:
+
+```
+Número introducido: 4
+Anchura máxima: 30
+Espacios mínimos: 2
+Introduzca el fichero que desea justificar: ejemplos/prueba.txt
+30  En  un  lugar  de  la
+29  Mancha,  de  cuyo
+...
+```
+
 ## Notas
 
-- En la opción 4 (justificar), si el fichero indicado no existe se muestra un mensaje y se pide de nuevo la ruta; si se introduce una línea vacía, se cancela y se vuelve al menú.
+- En la opción 4 (justificar), si el fichero indicado no existe se muestra un mensaje y se pide de nuevo la ruta; si se introduce una línea vacía, se cancela y se vuelve al menú. Puedes usar `ejemplos/prueba.txt` (un extracto del Quijote) como fichero de ejemplo.
 - Los datos acumulados durante la sesión se guardan en `BBDD.csv` al salir del programa. Al ejecutar desde la raíz del proyecto (tal como se indica en [Instalación y ejecución](#instalacion)), el archivo se crea en esa raíz.
