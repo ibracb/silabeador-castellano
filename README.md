@@ -55,17 +55,23 @@ Pulsa 5 para salir.
 
 ## Estructura del proyecto
 
-| Archivo | Descripción |
-|---|---|
-| `Main.py` | Menú principal y coordinación de las funcionalidades. |
-| `Silabear.py` | `silabar()` divide una palabra en sílabas. |
-| `Normas.py` | Expresiones regulares y reglas de separación silábica. |
-| `EntonarConTilde.py` | `entonacion_tilde()` marca la vocal tónica en palabras con tilde. |
-| `EntonarSinTilde.py` | `entonacion_sin_tilde()` marca la vocal tónica en palabras sin tilde. |
-| `Rimar.py` | `rimas()` calcula las rimas asonante y consonante. |
-| `CompruebaTilde.py` | `hayTilde()` comprueba si una palabra lleva tilde. |
-| `Justificacion.py` | `justifica()` justifica el texto de un fichero. |
-| `SeparacionPalabras.py` | `separarPalabras()` divide un párrafo en palabras. |
+```
+silabeador-castellano/
+├── code/                      # Código fuente
+│   ├── Main.py                # Menú principal y coordinación de funcionalidades
+│   ├── Silabear.py            # silabar(): divide una palabra en sílabas
+│   ├── Normas.py              # Expresiones regulares y reglas de separación silábica
+│   ├── EntonarConTilde.py     # entonacion_tilde(): marca la vocal tónica con tilde
+│   ├── EntonarSinTilde.py     # entonacion_sin_tilde(): marca la vocal tónica sin tilde
+│   ├── Rimar.py               # rimas(): calcula las rimas asonante y consonante
+│   ├── CompruebaTilde.py      # hayTilde(): comprueba si una palabra lleva tilde
+│   ├── Justificacion.py       # justifica(): justifica el texto de un fichero
+│   └── SeparacionPalabras.py  # separarPalabras(): divide un párrafo en palabras
+├── ejemplos/
+│   └── prueba.txt             # Extracto del Quijote (ejemplo de entrada)
+├── requirements.txt           # Dependencias del proyecto
+└── README.md
+```
 
 ## Ejemplo de uso
 
