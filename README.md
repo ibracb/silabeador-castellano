@@ -20,24 +20,24 @@ Herramienta CLI que trabaja con palabras del castellano: silabea palabras, marca
 ```
 silabeador-castellano/
 ├── code/                      # Código fuente
-│   ├── Main.py                # Menú principal y coordinación de funcionalidades
-│   ├── Silabear.py            # silabar(): divide una palabra en sílabas
-│   ├── Normas.py              # Expresiones regulares y reglas de separación silábica
+│   ├── CompruebaTilde.py      # hayTilde(): comprueba si una palabra lleva tilde
 │   ├── EntonarConTilde.py     # entonacion_tilde(): marca la vocal tónica con tilde
 │   ├── EntonarSinTilde.py     # entonacion_sin_tilde(): marca la vocal tónica sin tilde
-│   ├── Rimar.py               # rimas(): calcula las rimas asonante y consonante
-│   ├── CompruebaTilde.py      # hayTilde(): comprueba si una palabra lleva tilde
 │   ├── Justificacion.py       # justifica(): justifica el texto de un fichero
-│   └── SeparacionPalabras.py  # separarPalabras(): divide un párrafo en palabras
-├── ejemplos/
+│   ├── Main.py                # Menú principal y coordinación de funcionalidades
+│   ├── Normas.py              # Expresiones regulares y reglas de separación silábica
+│   ├── Rimar.py               # rimas(): calcula las rimas asonante y consonante
+│   ├── SeparacionPalabras.py  # separarPalabras(): divide un párrafo en palabras
+│   └── Silabear.py            # silabar(): divide una palabra en sílabas
+├── ejemplos/                  # Archivos de ejemplo de entrada
 │   └── prueba.txt             # Extracto del Quijote (ejemplo de entrada)
-├── requirements.txt           # Dependencias del proyecto
-└── README.md
+├── README.md                  # Documentación del proyecto
+└── requirements.txt           # Dependencias del proyecto
 ```
 
 ## Requisitos
 
-- Python 3
+- Python 3.x
 - Dependencias listadas en [`requirements.txt`](requirements.txt)
 
 ## Instalación y ejecución <a id="instalacion"></a>
@@ -123,5 +123,5 @@ Número introducido: 5
 
 ## Notas
 
-- En la opción 4 (justificar), si el fichero indicado no existe se muestra un mensaje y se pide de nuevo la ruta; si se introduce una línea vacía, se cancela y se vuelve al menú. Puedes usar `ejemplos/prueba.txt` (un extracto del Quijote) como fichero de ejemplo.
+- En la opción 4 (justificar), si el fichero indicado no existe se muestra un mensaje y se pide de nuevo la ruta; si se introduce una línea vacía, se cancela y se vuelve al menú. Puedes usar [`ejemplos/prueba.txt`](ejemplos/prueba.txt) (un extracto del Quijote) como fichero de ejemplo.
 - Los datos acumulados durante la sesión se guardan en `BBDD.csv` al salir del programa. Al ejecutar desde la raíz del proyecto (tal como se indica en [Instalación y ejecución](#instalacion)), el archivo se crea en esa raíz.
